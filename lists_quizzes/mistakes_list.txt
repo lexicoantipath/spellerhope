@@ -1,0 +1,29 @@
+0 https://media.merriam-webster.com/audio/prons/en/us/mp3/m/motile01.mp3 motile
+1 https://ahdictionary.com/application/resources/wavs/P0692500.wav pythonic
+2 https://media.merriam-webster.com/audio/prons/en/us/mp3/s/screed01.mp3 screed
+3 https://ahdictionary.com/application/resources/wavs/P0322300.wav piosity
+4 https://media.merriam-webster.com/audio/prons/en/us/mp3/c/cosmol02.mp3 cosmology
+5 https://media.merriam-webster.com/audio/prons/en/us/mp3/p/polite02.mp3 politesse
+6 https://media.merriam-webster.com/audio/prons/en/us/mp3/n/nonpro05.mp3 non prosequitur
+7 https://ahdictionary.com/application/resources/wavs/M0427700.wav morphosis
+8 https://media.merriam-webster.com/audio/prons/en/us/mp3/v/verbig01.mp3 verbigeration
+9 https://media.merriam-webster.com/audio/prons/en/us/mp3/f/florui01.mp3 floruit
+10 https://ahdictionary.com/application/resources/wavs/E0193100.wav equivoke
+11 https://media.merriam-webster.com/audio/prons/en/us/mp3/w/wahabi01.mp3 Wahhabi
+12 https://media.merriam-webster.com/audio/prons/en/us/mp3/m/manor001.mp3 manor
+13 https://media.merriam-webster.com/audio/prons/en/us/mp3/e/etymon01.mp3 etymon
+14 https://media.merriam-webster.com/audio/prons/en/us/mp3/a/antiqu01.mp3 antiquarian
+15 https://media.merriam-webster.com/audio/prons/en/us/mp3/l/legati01.mp3 legatine
+16 https://ahdictionary.com/application/resources/wavs/P0535100.wav presbyterian
+17 https://ahdictionary.com/application/resources/wavs/B0081400.wav bar mitzvah
+18 https://media.merriam-webster.com/audio/prons/en/us/mp3/i/inculc02.mp3 inculcate
+19 https://media.merriam-webster.com/audio/prons/en/us/mp3/r/rhonch01.mp3 rhonchus
+20 https://media.merriam-webster.com/audio/prons/en/us/mp3/s/surcin01.mp3 surcingle
+21 https://ahdictionary.com/application/resources/wavs/P0439900.wav pontonier
+22 https://media.merriam-webster.com/audio/prons/en/us/mp3/o/obsole02.mp3 obsolescence
+23 https://ahdictionary.com/application/resources/wavs/O0208000.wav oxycephaly
+24 https://media.merriam-webster.com/audio/prons/en/us/mp3/d/de_rig01.mp3 de rigueur
+25 https://ahdictionary.com/application/resources/wavs/T0369800.wav tritanopia
+26 https://media.merriam-webster.com/audio/prons/en/us/mp3/s/sensor01.mp3 sensor
+27 https://media.merriam-webster.com/audio/prons/en/us/mp3/e/expost02.mp3 expostulation
+28 https://media.merriam-webster.com/audio/prons/en/us/mp3/w/wombat01.mp3 wombat

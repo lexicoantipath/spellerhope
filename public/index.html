@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>spell your little heart out ^w^</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>We Are Running Out of Time</h2>
+
+<button onclick="playAudio()">repeat</button><br><br>
+
+<input id="input"
+       inputmode="text"
+       autocapitalize="none"
+       autocomplete="off"
+       autocorrect="off"
+       placeholder="we are ready for you"
+       spellcheck="false">
+<button onclick="submitAnswer()">wanna submit :D</button>
+
+<p id="result"></p>
+
+<script>
+let current = {};
+
+async function nextWord() {
+    const res = await fetch("/next");
+    current = await res.json();	
+
+    const audio = new Audio(current.audio);
+    audio.play();
+}
+
+function playAudio() {
+    const audio = new Audio(current.audio);
+    audio.play();
+}
+
+document.getElementById("input").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        submitAnswer();
+    }
+});
+
+async function submitAnswer() {
+    const user = document.getElementById("input").value;
+
+    const res = await fetch("/check", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ user })
+    });
+
+    const data = await res.json();
+
+    if (data.correct) {
+        document.getElementById("result").innerText = "Correct";
+    } else {
+        document.getElementById("result").innerText =
+            "Incorrect. Answer: " + data.answer;
+    }
+
+    document.getElementById("input").value = "";
+    nextWord();
+}
+
+nextWord();
+</script>
+
+</body>
+</html>
