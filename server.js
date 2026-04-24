@@ -5,6 +5,12 @@ const app = express();
 app.use(express.json());
 app.use(express.static("public"));
 
+const path = require("path");
+
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+
 let words = [];
 let audios = [];
 let mistakes = {};
@@ -66,4 +72,8 @@ app.get("/mistakes", (req, res) => {
     res.json(mistakes);
 });
 
-app.listen(3000, "0.0.0.0", () => console.log("i love you 3000"));
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, "0.0.0.0", () => {
+    console.log("Running on port " + PORT);
+});
